@@ -1,10 +1,54 @@
 bp_nodes_5_density_.25_UMAX_11.png created from boxPlot_by_u.py 
+	x axis:undersampling rate
+	y axis: computation time
+	property: eqc size
 sb_nodes_5_density_.25_UMAX_11.png created from stackedBar_by_u.py
-
-
+	x axis: undersampling rate
+	y axis: number of graphs
+	property: eqc size
 bp_nodes_5.png created from boxPlot_by_density_nodes_5.py
+	x axis: densities
+	y axis: computation time
+	property: computation time
+	graphs u = 2,3,4
 sb_nodes_5.png created from stackedBar_by_density_nodes_5.py
+	x axis: densities
+	y axis: number of graphs
+	property: eqc size
+	graphs u = 2,3,4
+sb_nodes_5_property_rate.png created from stacked_bar_by_density_nodes_5_prop_rate.py
+	x axis: densities
+	y axis: percentage of graphs
+	property: rate
+	u are all combined
+sb_nodes_5_property_rate_individual.png created from stacked_bar_by_density_nodes_5_prop_rate_individual.py
+	x axis: densities
+	y axis: percentage of graphs
+	property: rate
+	3 subplots in one figure (u=2,3,4)
 
-TODO
-bp_nodes_6.png created from boxPlot_by_density_nodes6.py
+TODO: Boxplots
+
+#######################6 nodes######################################################
+
+bp_nodes_6.png created from boxPlot_by_density_nodes6.py	
+	x axis: densities
+	y axis: computation time
+	property: time
 sb_nodes_6.png created from stackedBar_by_density_nodes_6.py
+	x axis: densities
+	y axis: number of graphs
+	property: eqc size
+	3 subplots in one figure (u=2,3,4)
+sb_nodes_6_property_rate.png created from stacked_bar_by_density_nodes_6_prop_rate.py
+	x axis: densities
+	y axis: percentage of graphs
+	property: rate
+	u are all combined
+sb_nodes_6_property_rate_individual.png created from stacked_bar_by_density_nodes_6_prop_rate_individual.py
+	x axis: densities
+	y axis: percentage of graphs
+	property: rate
+	3 subplots in one figure (u=2,3,4)
+
+TODO: boxplots
