@@ -1,5 +1,5 @@
 #this code is specifically used for plotting
-#a stacked bar graph for the all the zickle files 
+#a stacked bar graph for all the zickle files 
 #of a fixed number nodes = 5 and varying densities
 #which was created using liteqclass
 

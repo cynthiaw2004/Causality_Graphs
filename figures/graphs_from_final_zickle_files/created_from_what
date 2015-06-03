@@ -26,8 +26,22 @@ sb_nodes_5_property_rate_individual.png created from stacked_bar_by_density_node
 	y axis: percentage of graphs
 	property: rate
 	3 subplots in one figure (u=2,3,4)
-
-TODO: Boxplots
+bp_nodes_5_property_rate.png created from box_plot_by_u_nodes_5_property_rate.py (determined to not be helpful)
+	x axis: u (Gt)
+	y axis: percentage
+	property: rate
+sb_nodes_5_by_u_property_rate.png created from stacked_bar_by_u_nodes_5_property_rate.py
+	x axis: u(Gt)
+	y axis: percentage
+	property: rate
+sb_nodes_5_by_u_property_rate_upto30.png created from stacked_bar_by_u_nodes_5_property_rate_upto30.py
+	x axis: u(Gt)
+	y axis: percentage
+	property: rate
+	densities only go up to 30% (not 50%)
+H_dens_vs_log_time_nodes_5.png created from H_dens_vs_log_time_nodes_5.py
+	x axis: density of H
+	y axis: comp time log
 
 #######################6 nodes######################################################
 
@@ -50,5 +64,26 @@ sb_nodes_6_property_rate_individual.png created from stacked_bar_by_density_node
 	y axis: percentage of graphs
 	property: rate
 	3 subplots in one figure (u=2,3,4)
-
-TODO: boxplots
+bp_nodes_6_property_rate.png created from box_plot_by_u_nodes_6_property_rate.py (determined to not be helpful)
+	x axis: u (Gt)
+	y axis: percentage
+	property: rate
+sb_nodes_6_by_u_property_rate.png created from stacked_bar_by_u_nodes_6_property_rate.py
+	x axis: u(Gt)
+	y axis: percentage
+	property: rate
+H_dens_vs_log_time_nodes_6.png created from H_dens_vs_log_time_nodes_6.py
+	x axis: density of H
+	y axis: comp time log
+super_complicated_nodes_6.png created fro super_complicated_nodes_6.py
+	composed of 9 graphs (combinations of dens = .2,.25.,3 and u = 2,3,4)
+	each graph is H dens vs comp time
+#######################7 nodes######################################################
+H_dens_vs_log_time_nodes_7.png created from H_dens_vs_log_time_nodes_7.py
+	x axis: density of H
+	y axis: comp time log
+#######################allnodes######################
+H_dens_vs_log_time_nodes_allnodes.png created H_dens_vs_log_time_nodes_allnodes.py
+	x axis: density of H
+	y axis: comp time log
+	n=5,6,7
