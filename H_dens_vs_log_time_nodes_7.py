@@ -24,7 +24,7 @@ def gen_x_y(L):
         d = zkl.load(l)
         for i in range(0,100):
             gs = bfutils.call_undersamples(d[i]['gt'])   #this helps us determine how far u will go
-            for u in range(1,len(d[i]['solutions'])):
+            for u in range(1,len(d[i]['solutions'])+1):
             #for u in range(1,min([len(gs),4])):
                 g2 = bfutils.undersample(d[i]['gt'],u)   #this is H
                 x.append(traversal.density(g2))          #add the density of H
@@ -41,6 +41,7 @@ plt.xlabel('density of H')
 plt.ylabel('log scale computation time')
 plt.title('n = 7')
 plt.xlim(0,1)
+plt.ylim(10*2,10**5)
 plt.savefig('H_dens_vs_log_time_nodes_7.svgz')
 plt.show()
 
